@@ -1,0 +1,177 @@
+body {
+    font-family: 'Montserrat ', sans-serif;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+
+}
+
+.montserat {
+
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+
+}
+
+.Image {
+    transform: rotate(25deg);
+    width: 20%;
+    position: absolute;
+    right: 30%;
+
+
+
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-linl {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light ', sans-serif;
+}
+
+.Download-Button {
+    margin: 5% 3% 5% 0;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+
+}
+
+h3 {
+    font-family: 'Montserrat-Thick ', sans-serif;
+
+}
+
+h2 {
+    font-family: 'Montserrat-Bold';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+
+    margin: 20px 20px 50px;
+}
+
+#pricing {
+    text-align: center;
+}
+
+
+.border-color {
+    background-color: grey;
+}
+
+/* media */
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .Image {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+
+    }
+
+
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+
+    font-family: 'Montserrat-Black ';
+    padding: 70px 300px;
+    margin: 100px 0 100px;
+
+
+
+}
+
+h3 {
+    font-size: 50px;
+    font-family: 'Montserrat-Black ';
+    margin: 20px 0;
+    font-weight: 1000;
+}
+#footer{
+    text-align: center;
+    background-color:#fff;
+     color: grey;
+}
+.Icon{
+    padding: 10px;
+    color: black;
+    
+}
